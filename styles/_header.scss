@@ -1,18 +1,35 @@
 .header{
-    height: 70px;
     background-color: #f6f6f6;
     &__wrapper{
+        padding:20px 0px;
         display: flex;
         align-items: center;
         justify-content: space-between;
+        height: 100%;
+    }
+    &__logo{
+        text-decoration: none;
+        align-items: center;
+        display: flex;
     }
     &__logo-title{
         margin-left: 9px;
+        color: #2f2d26;
         font-size: 16px;
         font-weight: 700;
         text-transform: uppercase;
     }
+    &__lang{
+        margin-left: -100px;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        svg{
+            cursor: pointer;
+        }
+    }
     &__lang-switch{
+        cursor: pointer;
         margin-left: 9px;
         margin-right: 10px;
         font-size: 12px;
@@ -31,8 +48,10 @@
     &__menu-item{
         margin-right: 22px;
         a{
+            color: #2f2d26;
             text-decoration: none;
             transition: 0.3s;
+            
             font-size: 12px;
             font-weight: 600;
             &:hover{
@@ -43,7 +62,21 @@
             margin-right: 0px;
         }
     }
+    &__all-instruments{
+        display: flex;
+        align-items: center;
+        margin-right: -100px;
+        transition: .3s;
+        &:hover{
+            opacity: .5;
+        }
+    }
     &__profile{
-        margin-left: 80px;
+        display: flex;
+        align-items: center;
+        transition: .3s;
+        &:hover{
+            opacity: .5;
+        }
     }
 }
