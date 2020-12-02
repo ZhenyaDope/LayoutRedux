@@ -1,0 +1,49 @@
+.header{
+    height: 70px;
+    background-color: #f6f6f6;
+    &__wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__logo-title{
+        margin-left: 9px;
+        font-size: 16px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    &__lang-switch{
+        margin-left: 9px;
+        margin-right: 10px;
+        font-size: 12px;
+        color: #a2a2a2;
+        font-weight: 600;
+        transition: .3s;
+        &:hover{
+            color: #2f2d26;
+        }
+    }
+    &__menu{
+        list-style: none;
+        display: flex;
+        align-items: center;
+    }
+    &__menu-item{
+        margin-right: 22px;
+        a{
+            text-decoration: none;
+            transition: 0.3s;
+            font-size: 12px;
+            font-weight: 600;
+            &:hover{
+                opacity: 0.5;
+            }
+        }
+        &:last-child{
+            margin-right: 0px;
+        }
+    }
+    &__profile{
+        margin-left: 80px;
+    }
+}

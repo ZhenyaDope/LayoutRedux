@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Normalize css -->
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <!-- ------------- -->
+    <link rel="stylesheet" href="./styles/style.css">
+
+    <title>Redux - Home</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__wrapper">
+                <a href="#" class="header__logo">
+                    <svg class="header__logo-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="20" viewBox="0 0 24 20"><g><g><g><path fill="#7567ff" d="M6.86 0c3.788 0 6.859 2.987 6.859 6.672 0 3.685-3.071 6.672-6.86 6.672C3.071 13.344 0 10.307 0 6.672 0 2.987 3.071 0 6.86 0z"></path></g><g><path fill="#ff8a4a" d="M17.14 0C20.93 0 24 2.987 24 6.672c0 3.685-3.071 6.672-6.86 6.672-3.788 0-6.859-2.987-6.859-6.672 0-3.685 3.071-6.672 6.86-6.672z"></path></g><g><path fill="#4f80ff" d="M12 6.656c3.78 0 6.844 2.987 6.844 6.672C18.844 17.013 15.78 20 12 20c-3.78 0-6.844-2.987-6.844-6.672 0-3.685 3.064-6.672 6.844-6.672z"></path></g></g></g></svg>
+                    <span class="header__logo-title">Redux</span>
+                </a>
+                <div class="header__lang">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><defs><clipPath id="de7ba"><path fill="#fff" d="M10 0c5.523 0 10 4.477 10 10s-4.477 10-10 10S0 15.523 0 10 4.477 0 10 0z"></path></clipPath></defs><g><g opacity=".30"><g opacity=".30"><path fill="none" stroke="#151515" stroke-miterlimit="50" stroke-width="4" d="M10 0c5.523 0 10 4.477 10 10s-4.477 10-10 10S0 15.523 0 10 4.477 0 10 0z" clip-path="url(&quot;#de7ba&quot;)"></path></g><g opacity=".30"><path fill="none" stroke="#151515" stroke-miterlimit="50" stroke-width="2" d="M10.699 1.872v0s3.196 2.83 3.196 8.128-3.196 8.128-3.196 8.128v0"></path></g><g opacity=".30"><path fill="none" stroke="#151515" stroke-miterlimit="50" stroke-width="2" d="M9.3 1.872v0S6.103 4.702 6.103 10 9.3 18.128 9.3 18.128v0"></path></g><g opacity=".30"><path fill="#151515" d="M2 6h16v2H2z"></path></g><g opacity=".30"><path fill="#151515" d="M2 12h16v2H2z"></path></g></g></g></svg>
+                    <span class="header__lang-switch"></span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="8" height="6" viewBox="0 0 8 6"><g><g opacity=".30"><path fill="none" stroke="#151515" stroke-linecap="round" stroke-miterlimit="50" stroke-width="2" d="M.978 1.08v0l3.028 3.4v0l3.028-3.4v0"></path></g></g></svg>
+                </div>
+                <nav class="header__menu">
+                    <li class="header__menu-item">
+                        <a href="#">О сервисе</a>
+                        <a href="#">Расценки</a>
+                        <a href="#">Блог</a>
+                        <a href="#">Нажать</a>
+                    </li>
+                </nav>
+                <a class="header__all-instruments" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><g><g><g><g><path fill="#151515" d="M10 0a2 2 0 1 1 0 4 2 2 0 0 1 0-4z"></path></g><g><path fill="#151515" d="M10 8a2 2 0 1 1 0 4 2 2 0 0 1 0-4z"></path></g><g><path fill="#151515" d="M10 16a2 2 0 1 1 0 4 2 2 0 0 1 0-4z"></path></g></g><g><g><path fill="#151515" d="M2 0a2 2 0 1 1 0 4 2 2 0 0 1 0-4z"></path></g><g><path fill="#151515" d="M2 8a2 2 0 1 1 0 4 2 2 0 0 1 0-4z"></path></g><g><path fill="#151515" d="M2 16a2 2 0 1 1 0 4 2 2 0 0 1 0-4z"></path></g></g><g><g><path fill="#151515" d="M18 0a2 2 0 1 1 0 4 2 2 0 0 1 0-4z"></path></g><g><path fill="#151515" d="M18 8a2 2 0 1 1 0 4 2 2 0 0 1 0-4z"></path></g><g><path fill="#151515" d="M18 16a2 2 0 1 1 0 4 2 2 0 0 1 0-4z"></path></g></g></g></g></svg>
+                </a>
+                <a class="header__profile" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="21" viewBox="0 0 22 21"><defs><clipPath id="p0s1a"><path fill="#fff" d="M11 0c3.227 0 5.844 2.61 5.844 5.828 0 3.219-2.617 5.828-5.844 5.828-3.227 0-5.844-2.61-5.844-5.828C5.156 2.61 7.773 0 11 0z"></path></clipPath></defs><g><g><g><path fill="none" stroke="#151515" stroke-miterlimit="50" stroke-width="4" d="M11 0c3.227 0 5.844 2.61 5.844 5.828 0 3.219-2.617 5.828-5.844 5.828-3.227 0-5.844-2.61-5.844-5.828C5.156 2.61 7.773 0 11 0z" clip-path="url(&quot;#p0s1a&quot;)"></path></g><g><path fill="none" stroke="#151515" stroke-linecap="round" stroke-miterlimit="50" stroke-width="2" d="M1.832 19.167v0s.765-8.334 9.167-8.334c8.401 0 9.166 8.334 9.166 8.334v0"></path></g></g></g></svg>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <script src="./js/index.js"></script>
+</body>
+</html>
