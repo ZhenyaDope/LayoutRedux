@@ -5,3 +5,39 @@
     padding-left: 10px;
     padding-right: 10px;
 }
+
+
+.btn{
+    display: inline-block;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    height: 40px;
+    line-height: 40px;
+    max-width: 200px;
+    width: 100%;
+    padding: 0;
+    border: 0;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 20px;
+    background-color: #ffffff;
+    background-image: -webkit-gradient(linear, left top, right top, from(#7965ff), to(#4b82ff));
+    background-image: -o-linear-gradient(left, #7965ff 0%, #4b82ff 100%);
+    background-image: linear-gradient(to right, #7965ff 0%, #4b82ff 100%);
+    -webkit-box-shadow: 0 10px 30px rgba(98, 116, 255, 0.5);
+    box-shadow: 0 10px 30px rgba(98, 116, 255, 0.5);
+    white-space: nowrap;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-transition: .2s;
+    -o-transition: .2s;
+    transition: .2s;
+}
